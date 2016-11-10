@@ -1,0 +1,67 @@
+.util-ui-toast {
+  height: 100vh;
+  animation: hidden 200ms;
+  animation-fill-mode: forwards;
+  &.show {
+    animation-name: none;
+  }
+}
+
+.uut-overlay {
+  // background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.uut-body {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 1001;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  padding: 10px;
+  color: #fff;
+  max-width: 100px;
+  word-break: break-word;
+  animation: fadeout 200ms, hidden 200ms;
+  transform: translate(-50%, -50%);
+  animation-fill-mode: forwards;
+}
+
+.util-ui-toast.show .uut-body {
+  animation-name: popup;
+}
+
+@keyframes popup {
+  from {
+    transform: translate(-50%, -50%) scale(0);
+  }
+
+  to {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+
+@keyframes hidden {
+  to {
+    visibility: hidden;
+  }
+}
+
+
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}

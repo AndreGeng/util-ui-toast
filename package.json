@@ -1,0 +1,39 @@
+{
+  "name": "util-ui-toast",
+  "version": "1.0.0",
+  "description": "simple animated toast used for display error msgs",
+  "main": "./src/toast.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreGeng/util-ui-toast.git"
+  },
+  "author": "Andre Geng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreGeng/util-ui-toast/issues"
+  },
+  "homepage": "https://github.com/AndreGeng/util-ui-toast#readme",
+  "dependencies": {
+    "node-sass": "^3.11.2",
+    "reset-css": "^2.2.0",
+    "sass-loader": "^4.0.2",
+    "util-tool-tpl": "^1.0.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.5.1",
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "css-loader": "^0.25.0",
+    "node-sass": "^3.11.2",
+    "postcss-loader": "^1.0.0",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
