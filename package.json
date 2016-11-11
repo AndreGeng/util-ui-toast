@@ -21,7 +21,7 @@
     "node-sass": "^3.11.2",
     "reset-css": "^2.2.0",
     "sass-loader": "^4.0.2",
-    "util-tool-tpl": "^1.0.4"
+    "util-tool-tpl": "file:///Users/andregeng/Desktop/unremitting/util-tool-tpl"
   },
   "devDependencies": {
     "autoprefixer": "^6.5.1",

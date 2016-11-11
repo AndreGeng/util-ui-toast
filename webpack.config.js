@@ -4,7 +4,9 @@ module.exports = {
   entry: './src/toast.js',
   output: {
     path: __dirname,
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    library: 'Toast',
+    libraryTarget: 'this'
   },
   module: {
     loaders: [{
