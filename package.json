@@ -21,9 +21,7 @@
   },
   "homepage": "https://github.com/AndreGeng/util-ui-toast#readme",
   "dependencies": {
-    "node-sass": "^3.11.2",
     "reset-css": "^2.2.0",
-    "sass-loader": "^4.0.2",
     "util-tool-tpl": "file:///Users/andregeng/Desktop/unremitting/util-tool-tpl"
   },
   "devDependencies": {
@@ -36,6 +34,7 @@
     "postcss-loader": "^1.0.0",
     "sass-loader": "^4.0.2",
     "style-loader": "^0.13.1",
+    "tpl-loader": "file:///Users/andregeng/Desktop/unremitting/tpl-loader",
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.16.2"
   }

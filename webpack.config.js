@@ -18,6 +18,9 @@ module.exports = {
     }, {
       test: /\.css|\.scss|\.sass$/,
       loader: 'style!css!postcss!sass'
+    }, {
+      test: /\.tpl$/,
+      loader: 'tpl'
     }]
   },
   postcss: function () {
