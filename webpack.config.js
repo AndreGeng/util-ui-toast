@@ -20,7 +20,7 @@ module.exports = {
       loader: 'style!css!postcss!sass'
     }, {
       test: /\.tpl$/,
-      loader: 'tpl'
+      loader: 'gz-tpl'
     }]
   },
   postcss: function () {
