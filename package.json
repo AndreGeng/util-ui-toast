@@ -1,5 +1,5 @@
 {
-  "name": "util-ui-toast",
+  "name": "gz-util-ui-toast",
   "version": "1.0.1",
   "description": "simple animated toast used for display error msgs",
   "main": "./dist/toast.js",
